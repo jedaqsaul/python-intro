@@ -58,3 +58,10 @@ print(f"course :{course.count("s")}")
 -lower
 -count
 """
+
+print(("**************personal practice starts here**********").upper());
+print(str("I am a string"))
+
+#String interopolation
+dog_name='Lucy'
+print(f"say hello to my {dog_name}")
