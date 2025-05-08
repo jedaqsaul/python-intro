@@ -64,4 +64,11 @@ print(str("I am a string"))
 
 #String interopolation
 dog_name='Lucy'
-print(f"say hello to my {dog_name}")
+print(f"say hello to my dog {dog_name}")
+
+#string formatting with f-strings
+price_1=2
+price_2=2.5
+
+print(f"Item 1 costs ${price_1:.2f}")
+print(f"Item 2 costs ${price_2:.2f}")
