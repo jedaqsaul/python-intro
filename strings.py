@@ -1,5 +1,4 @@
-import pprint
-pp = pprint.PrettyPrinter(indent=2)
+from pprint import pp
 
 first_name='Aquila'
 last_name='Jedidiah'
@@ -34,9 +33,9 @@ print(age)
 
 #type use type(object)
 
-pp.pprint(type(age))
+pp(type(age))
 
-pp.pprint(type(first_name))
+pp(type(first_name))
 
 course= "software engineering"
 middle_name='Wafula Jedidiah'
@@ -81,3 +80,7 @@ print('HELLO'.lower())
 print('hello'.capitalize())
 print('hello'+ 'world')
 print('hello' *3)
+
+# Inspecting string objects
+print(type('hello'))
+pp(dir('hello'))
