@@ -28,3 +28,5 @@ list_123=[1,2,3]
 print(list_123.pop()) #removes and returns the last element
 print(list_123.remove(1))
 print(list_123)
+
+# LIst are mutable which means you can change their contents
